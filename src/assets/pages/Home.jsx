@@ -5,6 +5,8 @@ import { Hero } from "@/components/Hero";
 import { AboutMe } from "@/components/AboutMe";
 import { Skills } from "@/components/Skills";
 import { Projects } from "@/components/Projects";
+import { Contacts } from "@/components/Contacts";
+import { Footer } from "@/components/Footer";
 
 export const Home = () => {
   return (
@@ -21,9 +23,11 @@ export const Home = () => {
         <AboutMe />
         <Skills />
         <Projects />
+        <Contacts />
       </main>
 
       {/*Footer */}
+      <Footer />
     </div>
   );
 };
